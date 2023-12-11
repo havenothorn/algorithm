@@ -29,3 +29,8 @@ var array = [22, 11, 99, 88, 9, 7, 42];
 selectionSort(array);
 println("Array after sorting:  " + array);
 Program.assertEqual(array, [7, 9, 11, 22, 42, 88, 99]);
+
+var array = [-13, 6, 0, -99, 23, 45, 2];
+selectionSort(array);
+println("Array after sorting:  " + array);
+Program.assertEqual(array, [-99, -13, 0, 2, 6, 23, 45]);
