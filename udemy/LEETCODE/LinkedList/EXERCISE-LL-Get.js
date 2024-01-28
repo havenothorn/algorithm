@@ -109,7 +109,7 @@ class LinkedList {
     for (let i = 0; i < index; i++) {
       temp = temp.next;
     }
-    return temp;
+    return temp.value;
   }
 }
 
@@ -119,7 +119,7 @@ function test() {
   myLinkedList.push(2);
   myLinkedList.push(3);
 
-  console.log(myLinkedList.get(-1).value);
+  console.log(myLinkedList.get(0).value);
 }
 
 test();
